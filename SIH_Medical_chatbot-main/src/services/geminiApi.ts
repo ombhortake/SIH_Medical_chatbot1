@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
-const GEMINI_API_KEY = 'AIzaSyBn2I5ZbDw10jme-zgnEAft_YL67Djj3p0'; // Store securely in .env for production
+const GEMINI_API_KEY = 'GET YOUR OWN KEY'; // Store securely in .env for production
 const SYSTEM_PROMPT = `
 You are a knowledgeable medical information assistant designed to provide educational health information and support informed healthcare decisions.
 
